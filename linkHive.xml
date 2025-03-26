@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name = "TestCaseData.Listener"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+   <class name="LinkHive.LinkHive.SignUpTest"/>
+    <class name="LinkHive.LinkHive.LoginTest"/>
+    <!-- <class name="LinkHive.LinkHive.AddLinkTest"/>
+     <class name="LinkHive.LinkHive.EditLinkTest"/>
+    <class name = "LinkHive.LinkHive.ThemeSettingsTest"/>
+     <class name = "LinkHive.LinkHive.SocialMediaIconsTest"/>
+     <class name = "LinkHive.LinkHive.ProfileInfoTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
